@@ -1,7 +1,4 @@
 import pandas as pd
-from datawrapper import new_chart
-import seaborn as sns
-import matplotlib.pyplot as plt
 from datasets import *
 
 vaccines = pd.read_csv(OWID['global_vaccines'])
